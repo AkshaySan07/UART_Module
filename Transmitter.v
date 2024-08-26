@@ -17,8 +17,7 @@ module Transmitter(
        input  [3:0] control,              // No of bits, P/NP, Even/odd, Stopbits(1/2)
        input        baud_clk,
        inout        Tx_fg,                // If the flag is high then the data has been transmitted
-       output       Tx_line
-    );
+       output       Tx_line);
     
     
     
